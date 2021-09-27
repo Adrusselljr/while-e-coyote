@@ -9,11 +9,11 @@ function fib(num) {
     let temp
 
     while (num > 0){
-            temp = y
-            y = y + x
-            x = temp
-            num--
-            console.log(x)
+        console.log(x)
+        temp = y
+        y = y + x
+        x = temp
+        num--
     }
     return x
 }
